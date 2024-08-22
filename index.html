@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador de texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador/Desencriptador de texto</h1>
+        <p class="author">Realizado por: Yazmani Reyes Hernandez</p>
+        <div class="content">
+            <div class="left-section">
+                <textarea id="input-text" placeholder="Escribe aquí tu texto..."></textarea>
+                <p>Solo letras minúsculas y sin acentos</p>
+                <div class="buttons">
+                    <button id="encrypt-btn">Encriptar</button>
+                    <button id="decrypt-btn">Desencriptar</button>
+                </div>
+            </div>
+            <div class="right-section">
+                <p id="no-message" class="no-message"><strong>Ningún mensaje fue encontrado</strong></p>
+                <p id="enter-text" class="enter-text">Ingresa el texto que quieres encriptar o desencriptar</p>
+                <textarea id="output-text" readonly style="display: none;"></textarea>
+                <button id="copy-btn" style="display: none;">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
